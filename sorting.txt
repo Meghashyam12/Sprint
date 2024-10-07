@@ -1,0 +1,31 @@
+3 5 first_element_location:94 length:7
+3 start
+one:1
+swap_temp:0
+last_loc:0
+count:0
+start:5 length count stop 
+1 first_element_location length last_loc
+2 last_loc one last_loc
+7 first_element_location i
+1 i one j
+5 one length loop 3 next
+i:0 j:0
+loop:7 j l1
+7 i l2
+5 i last_loc cont 3 next
+cont:5 l1:j l2:i true 3 skip
+true:7 i v1
+7 i v3
+7 j v2
+7 j v4
+7 v1:i swap_temp 
+7 v2:j v3:i
+7 swap_temp v4:j
+skip:1 i one i
+1 j one j
+3 loop
+next:1 count one count
+3 start
+stop:9
+43 53 18 17 2 99 10
