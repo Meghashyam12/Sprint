@@ -1,0 +1,14 @@
+add:3 sub:start 
+jump:0 jeq:0 jil:0 read:0 copy:0 0 stop:0
+
+dividend:8
+divisor:2
+quotient:0
+rem:0
+one:1
+start:copy dividend rem
+loop:jil divisor rem true
+jeq rem divisor true stop
+true:sub rem divisor rem
+add quotient one quotient
+jump loop
