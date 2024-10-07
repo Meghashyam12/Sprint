@@ -1,0 +1,14 @@
+add:3 sub:4 
+jump:3 jeq:0 jif:1 read:1 copy:0 2 stop:2
+0 3 3 
+0 4 4
+0 5 5 
+0 6 6
+0 7 7
+0 9 9
+add x y 100
+sub x y 101
+copy 101 103
+stop
+x:5
+y:6
