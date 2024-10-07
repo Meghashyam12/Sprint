@@ -1,0 +1,22 @@
+3 7 seq_location:69 seq_length:5 cycle_location:80 cycle_length:23
+3 start zero:0 one:1 cyc_count:0 seq_count:0
+start:
+4 seq_length zero quit
+4 cycle_length zero quit
+cont:
+7 seq_location i
+1 cycle_location cyc_count j
+loop2:5 seq_count seq_length true 3 next
+true:7 i:0 j:0
+1 i one i
+1 j one j
+1 seq_count one seq_count
+1 cyc_count one cyc_count
+4 cycle_length zero quit
+5 cyc_count cycle_length loop2
+3 quit
+next:
+7 zero seq_count
+3 cont
+quit:9
+4 2 5 8 7
